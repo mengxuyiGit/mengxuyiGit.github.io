@@ -64,7 +64,8 @@
 }
 
 a {
-  color: #1772d0;
+  /* color: #1772d0; */
+  color: #990000; 
   text-decoration: none;
 }
 
@@ -97,7 +98,8 @@ heading {
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
-  font-weight: 700
+  font-weight: 700;
+  color: black;
 }
 
 name {
@@ -128,4 +130,30 @@ name {
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+
+.institute-logos {
+  display: flex;
+  justify-content: center; /* Center the icons */
+  align-items: center; /* Align vertically */
+  gap: 40px; /* Space between icons */
+  padding: 20px 0; /* Space around the row */
+}
+/* 
+.institute-logos img {
+  height: 50px; 
+  width: auto; 
+} */
+
+
+.institute-logos img {
+  height: auto; /* Adjust size as needed */
+  width: 100px; /* Maintain aspect ratio */
+}
+
+@media (max-width: 600px) {
+  .institute-logos img {
+      height: 40px; /* Smaller size on mobile */
+  }
 }

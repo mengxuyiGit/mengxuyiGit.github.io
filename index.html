@@ -11,7 +11,7 @@
 
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="icon"
-    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎋</text></svg>">
 </head>
 
 <body>
@@ -29,12 +29,12 @@
                     <name>Xuyi Meng</name>
                   </p>
                   <p>
-                    I am a 1st-year M.S. student studying computer and information science at <a href="https://www.upenn.edu/">University of Pennsylvania</a>,
-                    supervised by <a href="https://lingjie0206.github.io/">Prof. Lingjie Liu</a>.
+                    I am a 2nd-year CS M.S. student at <a href="https://www.upenn.edu/">University of Pennsylvania</a>,
+                    advised by <a href="https://lingjie0206.github.io/">Prof. Lingjie Liu</a>.
                     Before that, I have acquired my B.E. degree in CS with <strong>highest distinction</strong> from
                     <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>, Singapore,
                     where I had the great opportunity to work in <a href="<a href="https://www.mmlab-ntu.com/">MMLab@NTU</a>,
-                    advised by <a href="https://www.mmlab-ntu.com/person/ccloy/">Prof. Chen Change Loy</a> and <a href="daibo.info">Dr. Daibo</a>.
+                    advised by <a href="https://www.mmlab-ntu.com/person/ccloy/">Prof. Chen Change Loy</a> and <a href="daibo.info">Prof. Bo Dai</a>.
                     During my undergrad, I also spent a great summer in 2022 visiting <a href="https://www.ucsd.edu/">UCSD</a> and working with <a href="https://cseweb.ucsd.edu/~haosu/">Prof. Hao Su</a>.
 
                    
@@ -52,12 +52,21 @@
                 <td style="padding:2.5%;width:40%;max-width:40%">
 
                   <a href="images/portrait-yslan.JPG"><img style="width:100%;max-width:100%" alt="profile photo"
-                      src="images/yslan-indo.jpeg" class="hoverZoomLink"></a>
+                      src="images/xuyi-conert.jpeg" class="hoverZoomLink"></a>
 
                 </td>
               </tr>
             </tbody>
           </table>
+
+
+          <div class="institute-logos">
+            <img src="images/icon-Penn.png" alt="Institute 1" style="height: 50px; width: auto;" />
+            <img src="images/icon-NTU.png" alt="Institute 2" style="height: 130px; width: auto;" />
+            <img src="images/icon-UCSD.png" alt="Institute 3" style="height: 90px; width: auto;" />
+            <!-- Add more as needed -->
+        </div>
+        
 
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
@@ -102,9 +111,9 @@
                     through differentiable rendering.
                     
                   </p>
-                  <!-- <p>
-                  <font color="red"><strong>I am looking for a Ph.D. position in 25 Fall!</strong></font>
-                  </p> -->
+                  <p>
+                  <font color="red"><strong>I am actively looking for a Ph.D. position in 2025 Fall!</strong></font>
+                  </p>
                 </td>
               </tr>
             </tbody>
@@ -124,62 +133,62 @@
               </tr>
             </tbody>
           </table> -->
+          
 
 
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
-              <!-- iclr 23 -->
+              <!-- zero1toG (ICLR 2025) -->
+              <tr onmouseout="dreamfusion_stop()" onmouseover="dreamfusion_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='dreamfusion_image'><video width=100% height=100% muted autoplay loop>
+                        <source src="images/dreamfusion.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video></div>
+                    <img src='images/Homepage_v4.png' width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function dreamfusion_start() {
+                      document.getElementById('dreamfusion_image').style.opacity = "1";
+                    }
 
-
-              <!-- <div class="teaser-container">
-                <img class="teaser" src="/assets/images/EVA3D.gif" alt="EVA3D.gif">
-              </div> -->
-
-              <!-- <div class="info-container">
-
-                <p class="title">
-
-                  <a class="title_link" href="https://arxiv.org/abs/2210.04888" target="_blank">EVA3D: Compositional 3D
-                    Human Generation from 2D Image Collections
+                    function dreamfusion_stop() {
+                      document.getElementById('dreamfusion_image').style.opacity = "0";
+                    }
+                    dreamfusion_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://dreamfusion3d.github.io/">
+                    <papertitle>Zero-1-to-G: Direct 3D Generation using 2D Diffusion</papertitle>
                   </a>
+                  <br>
+                  <strong>Xuyi Meng</strong>,
+                  <a href="https://cwchenwang.github.io/" target="_blank">Chen Wang</a>, 
+                  <a href="https://www.cis.upenn.edu/~leijh/" target="_blank">Jiahui Lei</a>, 
+                  <a href="https://www.cis.upenn.edu/~kostas/" target="_blank">Kostas Daniilidis</a>,
+                  <a href="https://jiataogu.me/" target="_blank">Jiatao Gu</a>,
+                  <a href="https://lingjie0206.github.io/" target="_blank">Lingjie Liu</a>
+                  <em style="font-weight:bold; font-style:italic; margin-top:15px; margin-bottom:0px; display:block;">
+                    arXiv 2024
+                  </em>
+                  <a href="https://zero1toG.github.io/">project page</a>
+                  /
+                  <a href="">arXiv</a>
+                  /
+                  <a href="">Github (code coming soon)</a>
+                  <p>
+                    We reframe the challenging task of direct 3D generation within a 2D diffusion framework, 
+                    by decomposing the splatter image into a set of attribute images.
+                    The use of pretrained 2D diffusion model enables high-quality 3D generation and good generalization ability to in-the-wild data.
+                  </p>
+                </td>
+              </tr>
 
-                </p>
-
-                <div class="authors">
-                  <a href="https://hongfz16.github.io/" target="_blank">Fangzhou Hong</a>,
-                  <a href="https://frozenburning.github.io/" target="_blank"> Zhaoxi Chen</a>,
-                  <strong>Yushi Lan</strong>,
-                  <a href="https://scholar.google.com/citations?user=lSDISOcAAAAJ&amp;hl=zh-CN" target="_blank">Liang
-                    Pan</a>,
-                  <a href="https://liuziwei7.github.io" target="_blank">Ziwei Liu</a></p>
-                </div>
-
-                <div class="conference">
-                  <p><em>International Conference on Learning Representations</em> (<strong>ICLR</strong>), 2023 <span
-                      style="color:red;"><strong>(Spotlight)</strong></span></p>
-                </div>
-
-
-                <div class="url">
-                  <a href="https://arxiv.org/pdf/2210.04888.pdf" target="_blank">[PDF]</a>
-                  <a href="https://hongfz16.github.io/projects/EVA3D.html" target="_blank">[Project Page]</a>
-                  <a href="https://www.youtube.com/watch?v=JNV0FJ0aDWM" target="_blank">[Demo]</a>
-                  <a href="https://www.unite.ai/creating-full-body-deepfakes-by-combining-multiple-nerfs/"
-                    target="_blank">[Press]</a>
-                  <a href="https://github.com/hongfz16/EVA3D" target="_blank">[Code]</a>
-                  <img src="https://img.shields.io/github/forks/hongfz16/EVA3D?style=social">
-
-                </div>
-
-                <div class="comment">
-                  <p>EVA3D is a <strong>high-quality unconditional 3D human generative model</strong> that only requires
-                    2D image collections for training.</p>
-                </div>
-
-              </div> -->
-
+            
               <!-- ln3diff -->
 
               <tr onmouseout="e3dge_stop()" onmouseover="e3dge_start()">
@@ -192,17 +201,6 @@
                       </video></div>
                     <!-- <img src='images/gaussian3diff/small_teaser.png' width="160"> -->
                   </div>
-                  <!-- <p>A sailboat with mast.</p> -->
-                  <!-- <script type="text/javascript">
-                    function e3dge_start() {
-                      document.getElementById('e3dge_image').style.opacity = "1";
-                    }
-
-                    function e3dge_stop() {
-                      document.getElementById('e3dge_image').style.opacity = "0";
-                    }
-                    e3dge_stop()
-                  </script> -->
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
                   <a href="https://nirvanalan.github.io/projects/ln3diff/">
@@ -220,12 +218,15 @@
                   <a href="https://daibo.info/">Bo Dai</a>,
                   <a href="https://xingangpan.github.io/">Xingang Pan</a>,
                   <a href="https://www.mmlab-ntu.com/person/ccloy/">Chen Change Loy</a>
-                  <br>
-                  <em>arXiv preprint</em>
-                  <br>
+                  <em style="font-weight:bold; font-style:italic; margin-top:15px; margin-bottom:0px; display:block;">
+                    ECCV 2024
+                  </em>
                   <a href="https://nirvanalan.github.io/projects/ln3diff/">project page</a>
                   /
                   <a href="https://arxiv.org/pdf/2403.12019.pdf">arXiv</a>
+                  /
+                  <a href="https://github.com/NIRVANALAN/LN3Diff">Github</a>
+                  <img src="https://img.shields.io/github/stars/NIRVANALAN/LN3Diff?style=social" alt="GitHub stars">
 
                   <p></p>
                   <p>
@@ -269,16 +270,18 @@
           <a href='https://williamyang1991.github.io/' target='_blank'>Shuai Yang</a>,
           <a href='https://www.mmlab-ntu.com/person/ccloy/' target='_blank'>Chen Change Loy</a>,
           <a href='https://daibo.info/' target='_blank'>Bo Dai</a>
-          <br>
-          <em>CVPR</em>, 2023
-          <br>
+          <em style="font-weight:bold; font-style:italic; margin-top:15px; margin-bottom:0px; display:block;">
+            CVPR 2023
+          </em>
           <a href="https://nirvanalan.github.io/projects/E3DGE/index.html">project page</a>
           /
           <a href="https://arxiv.org/abs/2212.07409">arXiv</a>
           /
           <a href="https://drive.google.com/file/d/1yDkJfJOLeVlON7ZdRSnR34Ra_ikTVI0A/preview">video</a>
           /
-          <a href="https://github.com/NIRVANALAN/CVPR23-E3DGE">Code</a>
+          <a href="https://github.com/NIRVANALAN/CVPR23-E3DGE">Github</a>
+          <img src="https://img.shields.io/github/stars/NIRVANALAN/CVPR23-E3DGE?style=social" alt="GitHub stars">
+
 
           <p></p>
           <p>
@@ -335,8 +338,8 @@
                     generative modeling.
                   </p>
                 </td>
-              </tr> -->
-
+              </tr>
+ -->
 
     </tbody>
   </table>
@@ -402,6 +405,23 @@
     </tbody>
   </table>
 
+
+  <heading>Teaching</heading>
+  <p> 
+  TA for <a href="https://neural-representation-2024.github.io/">CIS7000: Neural Scene Representation and Neural Rendering </a>, 2024 Fall
+  </p>
+
+  <heading>Misc</heading>
+  <p>
+    🎹 I play <strong>2</strong> musical instruments: Piano and <a href="https://en.wikipedia.org/wiki/Guzheng">Guzheng</a>.<br>
+    💃 I am skilled in <strong>3</strong> forms of dance: traditional Chinese dance, Latin dance, and street dance.<br>
+    🌎 I can speak <strong>4</strong> languages: English, Mandarin, French, and Malay.<br>
+    🧗‍♀️ I enjoy <strong>N</strong> types of exercise: <strong>gradient-ascending&descending</strong> (hiking, cycling), <strong>motion planning</strong> (bouldering), 
+      <strong>human-object-interaction</strong> (weightlifting, badminton),
+      <strong>simulation</strong> (swimming), pilates and yoga.
+  </p>
+  
+
   <table style="width:70%;border:0px;border-spacing:0px;">
   <!-- <table > -->
     <tbody>
@@ -409,8 +429,8 @@
         <td style="padding:0px">
           <br>
           <p style="text-align:right;font-size:small;">
-            Design and source code from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron's
-              website</a>
+            Thanks for the amazing source code from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron's
+              website 🧚 </a>
           </p>
         </td>
       </tr>
