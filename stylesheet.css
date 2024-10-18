@@ -140,12 +140,6 @@ span.highlight {
   gap: 40px; /* Space between icons */
   padding: 20px 0; /* Space around the row */
 }
-/* 
-.institute-logos img {
-  height: 50px; 
-  width: auto; 
-} */
-
 
 .institute-logos img {
   height: auto; /* Adjust size as needed */
